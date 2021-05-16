@@ -1,0 +1,572 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+
+/* -------index.html styling starts from here---- */
+
+.home {
+    height: 100vh;
+    width: 100%;
+    
+    background-image: url(/bg1.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+
+}
+
+.navbar {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    
+    background-color: rgb(53, 51, 51);
+}
+
+
+
+.logo {
+
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px white solid;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: red;
+    margin-left: 50px;
+    padding: 3px;
+   max-width: 170px;
+   
+    
+
+
+}
+.logo-txt{
+    width: 50%;
+   
+}
+
+.header{
+    width: 40%;
+   
+}
+
+nav {
+
+     flex: 1; 
+}
+
+
+nav ul li {
+    list-style: none;
+    
+    display: inline-block;
+    margin:12px;
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    
+    
+
+
+
+}
+
+li a:hover {
+    background-color: gold;
+    color:black;
+    border-radius: 30px;
+}
+ a.active{
+    background-color:red;
+    border-radius: 30px;
+    /* margin-left: 650px; */
+    
+}
+
+
+.content {
+    /* justify-content: center; */
+    margin-left: 10%;
+    margin-top: 10%;
+    /* position: relative; */
+    display: flex;
+
+}
+.intro{
+    margin-left: 23%;
+}
+
+
+.content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+
+}
+
+
+.p-color {
+    margin-top:5px;
+    font-size: 20px;
+    text-indent: 65px;
+
+}
+
+.index-image, img {
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 50%;
+     float: right; 
+    margin-right: 30px; 
+
+
+
+}
+
+@media only screen and (max-width: 700px){
+    .home {
+        height: 100vh;
+        width: 100%;
+        background-image: url(/home.jpg);
+       
+        overflow-x: hidden;
+       
+        
+        
+        
+    
+    
+    }
+.content {
+   height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+    
+   
+}
+.intro{
+    margin-left: 5%; 
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+img {
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+     
+    margin-top: 75px;;
+
+
+}
+
+
+}
+
+
+
+/* -----index.html style ends here----- */
+
+
+
+
+/* ---------------contact.html styling------ */
+
+.contact{
+    display: flex;
+    height:95vh;
+    width:100%;
+    
+    
+    
+}
+.detail{
+   
+    
+    background-color:rgb(4, 4, 34);
+    
+    color:white;
+    padding: 100px;
+    width:30%;
+    
+    
+    
+    
+}
+address{
+    
+    align-items: center;
+
+}
+.underline{
+    text-decoration:underline;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:gold;
+    
+    align-items: center;
+    text-transform: capitalize;
+}
+.form{
+padding:50px;
+background-color: rgb(12, 12, 66);
+width:70%;
+
+
+
+}
+
+#firstname, #lastname , #mobile{
+width:100%;
+padding: 20px;
+margin: 5px 0px;
+border-radius: 10px;
+
+}
+.label{
+    margin-left: 15px;
+    color:white;
+}
+
+.submit{
+    background-color: gold;
+    
+    padding:10px;
+    margin: 10px;
+    border:1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    color:black;
+    font-weight:bold;
+    float:right;
+    margin-right: 1px;
+}
+.enquiry-txt{
+    margin-bottom: 50px;;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    border-bottom:1px  red solid;
+    background-color: gold;
+    border-radius: 20px;
+
+}
+
+
+textarea{
+    width:100%;
+    height:150px;
+    padding: 20px;
+    
+    border: 1px solid ;
+    border-radius: 10px;
+
+
+}
+
+
+ /* Responsive -------------- */
+
+@media screen and (max-width: 700px){
+
+    .contact{
+        display: block;
+        height:100%;
+        width:100%;
+        overflow-x: hidden;
+    }
+    .form{
+        padding:100px;
+        background-color: rgb(12, 12, 66);
+        width:100%;
+    }
+    .detail{
+        background-color:rgb(4, 4, 34);
+        color:white;
+        padding: 100px;
+        width:100%;
+    }
+
+    
+
+    
+}
+
+/* ------contact.html styling ends here---- */
+
+/* -------CV html style */
+.cv {
+    display: flex;
+    height:95vh;
+    width: 100%;
+    }
+    
+    .contact-information {
+    background-color: rgb(4, 4, 34);
+    width: 25%;
+    
+    padding-left:30px;
+    padding-top: 10px; 
+    display: block;
+    }
+    
+    .resume {
+    background-color: rgb(12, 12, 66);
+    width: 75%;
+    display: block;
+    padding-left:30px;
+    padding-top: 20px; 
+    
+    }
+    
+    .about-section,.work-section, .objective, .extra-activities, .lang {
+    margin: 10px;
+    margin-bottom: 20px;
+    color: rgb(238, 222, 222);
+    }
+    
+    
+    
+    .bottom-border {
+    text-decoration: underline;
+    color: gold;
+    }
+    
+    .contact-address {
+    color: white;
+    }
+    
+    
+    
+    .dp-name {
+    color: white;
+    text-transform: capitalize;
+    
+   
+    
+    }
+    
+    /* ---Responsive design for cv.html starts from here-- */
+    
+    @media only screen and (max-width: 700px){
+    
+    .cv{
+    
+    display:block;
+    height:95vh;
+    width:100%;
+    overflow-x: hidden;
+    
+    }
+    
+    .contact-information {
+    background-color: rgb(4, 4, 34);
+    width: 100%;
+    
+    padding-left:50px;
+    padding-top: 10px; 
+    display: block;
+    padding-bottom: 20px;;
+    padding-right:5px;
+    
+    }
+    .resume {
+    background-color: rgb(12, 12, 66);
+    width:100%;
+    display: block;
+    padding-left:10px;
+    padding-top: 20px; 
+    padding-right:5px;
+    
+    
+    }
+    .about-section,.work-section, .objective ,.extra-activities, .lang{
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+    color: rgb(238, 222, 222);
+    padding-bottom: 20px;
+    padding-left: 50px;
+    }
+    
+    
+    
+    .bottom-border {
+    text-decoration: underline;
+    color: gold;
+    }
+    
+    .contact-address {
+    color: white;
+    }
+    }
+    /* --Responsive design for cv.html ends  here */
+    
+    
+    
+    
+    /* ....Styling of cv.html ends here-- */
+    
+
+/* ---Styling for Site Report ---- */
+
+.site-report{
+    text-align: justify;
+    background-color: rgb(240, 229, 229);
+    
+    padding: 20px;
+    
+}
+
+.p-design{
+    text-indent: 100px;
+}
+.site-heading{
+text-align: center;
+text-decoration: underline;
+color:darkred;
+
+}
+.date{
+    font-size: 20px;
+    
+    
+}
+
+
+ .screenshot, img, .sitereport-image {
+    height: 100%;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    
+    
+ }
+ .reference-list{
+     text-align: center;
+     background-color: rgb(8, 8, 36);
+     color:white;
+     padding: 20px;
+     list-style: none;
+     align-items: center;
+ }
+
+
+
+ @media screen and (max-width: 700px){
+     .site-report-content{
+         display:flex;
+         flex-direction: column;
+     }
+ }
+
+/* ---Styling for site Report Ends Here */
+
+
+/* -----Styling For Portfolio Page */
+.Portfolio-link ,li{
+    text-decoration: none;
+    list-style: none;
+
+}
+#homee{
+    background: url(/bg1.jpg);
+}
+
+
+
+
+@media screen and (max-width: 700px){
+    .portfolio{
+        display:  block;
+    }
+
+    
+
+}
+/* styling for portfolio ends here */
+
+
+    /* --------responsive navigation bar------ */
+    
+ 
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top:15px;
+        display: none;
+        
+    
+    }
+    .line{
+        width:33px;
+        background-color:rgb(14, 6, 6);
+        height: 4px;
+        margin: 5px 5px;
+        border-radius: 20%;
+        
+        
+    
+    
+    }
+    
+    
+     @media only screen and (max-width: 700px){
+    
+    .logo{
+    display:none;
+    }
+    
+    .navbar{
+        
+        flex-direction: column;
+       height: 50%;
+       width:100%;
+       text-align: center;
+       line-height: 50px;
+       
+    }
+    
+    .burger{
+        display: block;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+     } 
+ 
+
+     /* -----navigation bar responsive ends here-- */

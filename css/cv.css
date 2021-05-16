@@ -1,0 +1,127 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    }
+    
+    .cv {
+    display: flex;
+    height:100vh;
+    }
+    
+    .contact-information {
+    background-color: rgb(4, 4, 34);
+    width: 25%;
+    
+    padding-left:30px;
+    padding-top: 10px; 
+    display: block;
+    }
+    
+    .resume {
+    background-color: rgb(12, 12, 66);
+    width: 75%;
+    display: block;
+    padding-left:30px;
+    padding-top: 20px; 
+    
+    }
+    
+    .about-section,.work-section, .objective, .extra-activities {
+    margin: 10px;
+    margin-bottom: 20px;
+    color: rgb(238, 222, 222);
+    }
+    
+    
+    
+    .bottom-border {
+    text-decoration: underline;
+    color: gold;
+    }
+    
+    .contact-address {
+    color: white;
+    }
+    
+    .cv-img {
+    width: 130px;
+    border: 1px white solid;
+    border-radius: 50%;
+    }
+    
+    .dp-name {
+    color: white;
+    text-transform: capitalize;
+    
+    margin-left: 20px;
+    
+    }
+    
+    /* ---Responsive design for cv.html starts from here-- */
+    
+    @media only screen and (max-width: 700px){
+    *{
+    margin:0px;
+    padding:0px;
+    }
+    .cv{
+    /* background-color: aqua; */
+    display:block;
+    height:100vh;
+    width:100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    }
+    .cv-img {
+    width: 130px;
+    border: 1px white solid;
+    border-radius: 50%;
+    }
+    .contact-information {
+    background-color: rgb(4, 4, 34);
+    width: 100%;
+    
+    padding-left:10px;
+    padding-top: 10px; 
+    display: block;
+    padding-bottom: 20px;;
+    padding-right:5px;
+    
+    }
+    .resume {
+    background-color: rgb(12, 12, 66);
+    width:100%;
+    display: block;
+    padding-left:10px;
+    padding-top: 20px; 
+    padding-right:5px;
+    
+    
+    }
+    .about-section,.work-section, .objective {
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+    color: rgb(238, 222, 222);
+    padding-bottom: 20px;;
+    }
+    
+    
+    
+    .bottom-border {
+    text-decoration: underline;
+    color: gold;
+    }
+    
+    .contact-address {
+    color: white;
+    }
+    }
+    /* --Responsive design for cv.html ends  here */
+    
+    
+    
+    
+    /* ....Styling of cv.html ends here-- */
+    
+    

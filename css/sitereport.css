@@ -1,0 +1,50 @@
+.site-report{
+    text-align: justify;
+    background-color: rgb(240, 229, 229);
+    
+    padding: 20px;
+    
+}
+
+.p-design{
+    text-indent: 100px;
+}
+.site-heading{
+text-align: center;
+text-decoration: underline;
+color:darkred;
+
+}
+.date{
+    font-size: 20px;
+    
+    
+}
+
+
+ .screenshot, img, .sitereport-image {
+    height: 100%;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    
+    
+ }
+ .reference-list{
+     text-align: center;
+     background-color: rgb(8, 8, 36);
+     color:white;
+     padding: 20px;
+     list-style: none;
+     align-items: center;
+ }
+
+
+
+ @media screen and (max-width: 700px){
+     .site-report-content{
+         display:flex;
+         flex-direction: column;
+     }
+ }
